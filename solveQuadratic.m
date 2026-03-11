@@ -23,7 +23,7 @@ function [r, D] = solveQuadratic(a,b,c)
             if c == 0
                 error('MATLAB:solveQuadratic:Indeterminate');
             else
-                error('No solution (constant nonzero = 0).');
+                error('No solution (constant non-zero = 0).');
             end
         end
         r(1) = -c / b;
