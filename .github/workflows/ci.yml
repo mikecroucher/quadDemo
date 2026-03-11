@@ -12,6 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: matlab-actions/setup-matlab@v2
+        with:
+          products: >
+            Instrument_Control_Toolbox
       - uses: matlab-actions/run-tests@v2
         with:
           test-results-junit: results/results.xml
