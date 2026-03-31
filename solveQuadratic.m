@@ -21,7 +21,7 @@ function [r, D] = solveQuadratic(a,b,c)
         % Linear: bx + c = 0
         if b == 0
             if c == 0
-                error('MATLAB:solveQuadratic:Indeterminate');
+                error('MATLAB:solveQuadratic:Indeterminate', 'Equation is indeterminate (0 = 0).');
             else
                 error('No solution (constant non-zero = 0).');
             end

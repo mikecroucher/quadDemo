@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project MetadataType="monolithic">
+    <Info Location="ProjectData">
+        <Info Name="quadDemo"/>
+    </Info>
+    <Files Location="Root">
+        <File Location=".gitattributes">
+            <Info/>
+        </File>
+        <File Location=".gitignore">
+            <Info/>
+        </File>
+        <File Location=".github">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="workflows">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="ci.yml">
+                    <Info/>
+                </File>
+            </File>
+        </File>
+        <File Location="GetSupportedInterfacesTest.m">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="README.md">
+            <Info/>
+        </File>
+        <File Location="SolveQuadraticTest.m">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="getSupportedInterfaces.m">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="solveQuadratic.m">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="toolbox.ignore">
+            <Info/>
+        </File>
+    </Files>
+    <Categories Location="Root">
+        <Category Location="FileClassCategory">
+            <Info DataType="None" Name="Classification" ReadOnly="1" SingleValued="1"/>
+            <Label Location="design">
+                <Info Name="Design" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="derived">
+                <Info Name="Derived" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="artifact">
+                <Info Name="Artifact" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="convenience">
+                <Info Name="Convenience" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="other">
+                <Info Name="Other" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="test">
+                <Info Name="Test" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="none">
+                <Info Name="None" ReadOnly="READ_ONLY"/>
+            </Label>
+        </Category>
+        <Category Location="Deployment_Category_f0a5bb60-d8b2-429a-8a88-8cda40341127">
+            <Info DataType="None" Name="Toolbox - quadDemo" ReadOnly="0" SingleValued="0"/>
+            <Label Location="Deployment_ToolboxImageFile_f0a5bb60-d8b2-429a-8a88-8cda40341127">
+                <Info Name="Toolbox Image File" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="Deployment_ToolboxAppGalleryFiles_f0a5bb60-d8b2-429a-8a88-8cda40341127">
+                <Info Name="App Gallery File" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="Deployment_GettingStartedGuideFile_f0a5bb60-d8b2-429a-8a88-8cda40341127">
+                <Info Name="Getting Started Guide" ReadOnly="WRITABLE"/>
+            </Label>
+        </Category>
+    </Categories>
+    <ProjectPath Location="Root">
+        <Reference Location="bf32a605-fc22-40f9-8754-826093a85e51">
+            <Info Ref="" Type="Relative"/>
+        </Reference>
+    </ProjectPath>
+    <Root Location="Extensions">
+        <Extension Location="Information">
+            <Info description="A demo to show how to package and test"/>
+        </Extension>
+    </Root>
+    <Files Location="MathWorksDeploymentConfig{419a8d7e-7b67-4c5c-b57f-392b27faf2c4}">
+        <DIR_SIGNIFIER Location="1">
+            <Info/>
+        </DIR_SIGNIFIER>
+        <Info ToolboxConfigModel="{&quot;entries&quot;:[{&quot;content&quot;:{&quot;appGalleryLabel&quot;:{&quot;content&quot;:{&quot;categoryID&quot;:&quot;Deployment_Category_f0a5bb60-d8b2-429a-8a88-8cda40341127&quot;,&quot;labelID&quot;:&quot;Deployment_ToolboxAppGalleryFiles_f0a5bb60-d8b2-429a-8a88-8cda40341127&quot;},&quot;type&quot;:&quot;deployment.toolbox.model.ProjectLabel&quot;,&quot;uuid&quot;:&quot;7f6a8891-33a4-4d53-ad2e-e4fa3764f7c0&quot;},&quot;gettingStartedGuideLabel&quot;:{&quot;content&quot;:{&quot;categoryID&quot;:&quot;Deployment_Category_f0a5bb60-d8b2-429a-8a88-8cda40341127&quot;,&quot;labelID&quot;:&quot;Deployment_GettingStartedGuideFile_f0a5bb60-d8b2-429a-8a88-8cda40341127&quot;},&quot;type&quot;:&quot;deployment.toolbox.model.ProjectLabel&quot;,&quot;uuid&quot;:&quot;89b2c6e8-aef1-40a3-a6a2-22b01587edef&quot;},&quot;outputFileName&quot;:&quot;quadDemo.mltbx&quot;,&quot;outputFolder&quot;:&quot;quadDemo/release&quot;,&quot;supportedPlatforms&quot;:[&quot;Windows&quot;,&quot;Linux&quot;,&quot;Mac&quot;,&quot;MatlabOnline&quot;],&quot;toolboxFolder&quot;:&quot;/&quot;,&quot;toolboxImgLabel&quot;:{&quot;content&quot;:{&quot;categoryID&quot;:&quot;Deployment_Category_f0a5bb60-d8b2-429a-8a88-8cda40341127&quot;,&quot;labelID&quot;:&quot;Deployment_ToolboxImageFile_f0a5bb60-d8b2-429a-8a88-8cda40341127&quot;},&quot;type&quot;:&quot;deployment.toolbox.model.ProjectLabel&quot;,&quot;uuid&quot;:&quot;7532b13f-94b4-4c43-ac3a-054a2487723c&quot;},&quot;toolboxName&quot;:&quot;QuadDemo&quot;,&quot;toolboxVersion&quot;:&quot;1.0.0&quot;,&quot;uniqueId&quot;:&quot;f8dcd370-c36d-4e91-b188-e50994f3c584&quot;},&quot;type&quot;:&quot;deployment.toolbox.model.ToolboxConfiguration&quot;,&quot;uuid&quot;:&quot;4e59a2cc-751b-4ed9-a77b-dd9bad5fbead&quot;},{&quot;content&quot;:{},&quot;type&quot;:&quot;deployment.toolbox.model.ProjectStateValidationIssueList&quot;,&quot;uuid&quot;:&quot;ff4d98fa-91f9-4411-8b78-2523c45cd14e&quot;}],&quot;packageUris&quot;:[&quot;http://schema.mathworks.com/mf0/deployment_toolbox_model/1.0.0&quot;],&quot;version&quot;:&quot;1.0&quot;}" displayName="quadDemo" lastAccessed="1774957720066" taskID="77deca9a-a3b7-4889-87ff-a955d81169d1" type="Toolbox" uniqueId="f0a5bb60-d8b2-429a-8a88-8cda40341127"/>
+    </Files>
+    <Files Location="MathWorksDeploymentConfigs">
+        <Info configMapData="{&quot;quadDemo&quot;:&quot;MathWorksDeploymentConfig{419a8d7e-7b67-4c5c-b57f-392b27faf2c4}&quot;}"/>
+        <DIR_SIGNIFIER Location="1">
+            <Info/>
+        </DIR_SIGNIFIER>
+    </Files>
+</project>
